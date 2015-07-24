@@ -66,7 +66,7 @@ class Module extends \yii\base\Module
         Yii::$app->i18n->translations['modules/filemanager/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@vendor/pendalf89/yii2-filemanager/messages',
+            'basePath' => '@vendor/weison-tech/yii2-filemanager/messages',
             'fileMap' => [
                 'modules/filemanager/main' => 'main.php',
             ],
