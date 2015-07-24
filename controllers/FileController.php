@@ -44,7 +44,7 @@ class FileController extends Controller
 
     public function actionFilemanager()
     {
-        $this->layout = '@vendor/pendalf89/yii2-filemanager/views/layouts/main';
+        $this->layout = '@vendor/weison-tech/yii2-filemanager/views/layouts/main';
         $model = new Mediafile();
         $dataProvider = $model->search();
         $dataProvider->pagination->defaultPageSize = 15;
@@ -57,7 +57,7 @@ class FileController extends Controller
 
     public function actionUploadmanager()
     {
-        $this->layout = '@vendor/pendalf89/yii2-filemanager/views/layouts/main';
+        $this->layout = '@vendor/weison-tech/yii2-filemanager/views/layouts/main';
         return $this->render('uploadmanager', ['model' => new Mediafile()]);
     }
 
