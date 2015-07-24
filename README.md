@@ -47,7 +47,7 @@ to the require section of your `composer.json` file.
 
 Apply migration
 ```sh
-yii migrate --migrationPath=vendor/weison-tech/yii2-filemanaer/migrations
+yii migrate --migrationPath=vendor/weison-tech/yii2-filemanager/migrations
 ```
 
 Configuration:
