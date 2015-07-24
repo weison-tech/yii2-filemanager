@@ -34,20 +34,20 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist pendalf89/yii2-filemanager "*"
+php composer.phar require --prefer-dist weison-tech/yii2-filemanager "*"
 ```
 
 or add
 
 ```
-"pendalf89/yii2-filemanager": "*"
+"weison-tech/yii2-filemanager": "*"
 ```
 
 to the require section of your `composer.json` file.
 
 Apply migration
 ```sh
-yii migrate --migrationPath=vendor/pendalf89/yii2-filemanager/migrations
+yii migrate --migrationPath=vendor/weison-tech/yii2-filemanaer/migrations
 ```
 
 Configuration:
