@@ -16,7 +16,7 @@ $bundle = FilemanagerAsset::register($this);
 
 <ul class="detail">
     <li><?= $model->type ?></li>
-    <li><?= Yii::$app->formatter->asDatetime($model->getLastChanges()) ?></li>
+    <li><?= Yii::$app->language == "zh-CN" ? date("Y-m-d H:i:s") : Yii::$app->formatter->asDatetime($model->getLastChanges()) ?></li>
     <?php if ($model->isImage()) : ?>
         <li><?= $model->getOriginalImageSize($this->context->module->routes) ?></li>
     <?php endif; ?>
